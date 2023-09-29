@@ -6,7 +6,28 @@ section{
     border: 10px;
 }
 
+body{
+    background-color: black;
+}
+
 h1{
     color: rgb(255, 255, 255);
     text-align: center;
+}
+
+.card-text{
+    color: rgb(58, 163, 255);
+}
+
+img{
+    border-radius: 20%;
+}
+
+.card{
+    background-color: rgb(74, 74, 74);
+    border-radius: 30px;
+}
+
+.container-fluid{
+    background-color: rgb(189, 255, 255);
 }
