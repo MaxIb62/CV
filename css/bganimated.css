@@ -9,7 +9,9 @@ body{
     
     min-height: 100vh;
 
-    z-index: 8;
+    z-index: 0;
+
+    
 
 }
 
@@ -19,6 +21,8 @@ body{
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    
+    filter: blur(20px);
 }
 
 .bubbles{
@@ -37,7 +41,7 @@ body{
     0 0  50px #67cfff,
     0 0 100px #67cfff;
     animation: animate 15s linear infinite;
-    animation-duration: calc(125s /var(--i));
+    animation-duration: calc(130s /var(--i));
 }
 .bubbles span:nth-child(even){
     background: #f323de;
