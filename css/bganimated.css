@@ -7,11 +7,7 @@
 
 body{
     
-    min-height: 100vh;
-
-    z-index: 0;
-
-    
+    min-height: 100vh;    
 
 }
 
@@ -22,7 +18,7 @@ body{
     height: 100vh;
     overflow: hidden;
     
-    filter: blur(20px);
+    filter: blur(85px);
 }
 
 .bubbles{
@@ -32,15 +28,15 @@ body{
 
 .bubbles span{
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 90px;
     background-color: aqua;
     margin: 0 4px;
-    border-radius: 50%;
+    border-radius: 100%;
     box-shadow: 0 0 0 10px #005a84, 
     0 0  50px #67cfff,
     0 0 100px #67cfff;
-    animation: animate 15s linear infinite;
+    animation: animate 1s linear infinite;
     animation-duration: calc(130s /var(--i));
 }
 .bubbles span:nth-child(even){
