@@ -18,7 +18,7 @@ body{
     height: 100vh;
     overflow: hidden;
     
-    filter: blur(85px);
+    filter: blur(80px);
 }
 
 .bubbles{
